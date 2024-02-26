@@ -1,0 +1,297 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto','sans-serif';
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("res_img/r1.jpg");
+    background-position:center;
+    background-size:cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+
+
+
+.navbar{
+    height: 12%;
+    display:flex;
+    align-items: center;
+
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    width:30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size:13;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+
+p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+
+button{
+    width: 180px;
+    color: #000;
+    font-size: 24px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+} 
+
+
+
+.card1 {
+    background-image: url("res_img/r1.jpg");
+}
+
+.card2 {
+    background-image: url("res_img/r2.jpg");
+
+}
+
+.card3 {
+    background-image: url("res_img/r3.jpg");
+
+}
+
+.card4 {
+    background-image: url("res_img/r4.jpg");
+
+}
+
+.card5 {
+    background-image: url("res_img/r5.jpg");
+
+}
+
+.card6 {
+    background-image: url("res_img/r6.jpg");
+
+}
+
+.card7 {
+    background-image: url("res_img/r7.jpg");
+
+}
+
+.card8 {
+    background-image: url("res_img/r8.jpg");
+}
+
+
+
+.card9 {
+    background-image: url("res_img/r9.jpg");
+
+}
+
+
+
+.card10 {
+    background-image: url("res_img/r10.jpg");
+
+}
+
+.card11 {
+    background-image: url("res_img/r11.jpg");
+
+}
+
+.card12 {
+    background-image: url("res_img/r12.jpg");
+
+}
+
+
+
+
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+
+
+
+
+::selection {
+    background-color: gray;
+  }
+  
+  .containerinq {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form {
+    width: auto;
+    height: 600px;
+    padding: 80px;
+    background-image: linear-gradient(to bottom, #424242,#212121);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+  }
+  
+  .title {
+    color: wheat;
+    margin: 1rem 0;
+    font-size: 2rem;
+  }
+  
+  .input {
+    margin: 0.5rem 0;
+    padding: 1rem 0.5rem;
+    width: 20rem;
+    background-color: inherit;
+    color: wheat;
+    border: none;
+    outline: none;
+  }
+
+  .inputdate {
+    margin: 0.5rem 0;
+    padding: 1rem 0.5rem;
+    width: 12.5rem;
+    background-color: inherit;
+    color: wheat;
+    border: none;
+    outline: none;
+  }
+
+  .inputfull{
+    margin: 0.5rem 0;
+    padding: 1rem 0.5rem;
+    width: 41rem;
+    background-color: inherit;
+    color: wheat;
+    border: none;
+    outline: none;
+  }
+  
+  .design {
+    border-bottom: 1px solid wheat;
+    transition: all 400ms;
+  }
+  
+  .design:hover {
+    background-color: #424242;
+    border: none;
+    border-radius: 0.5rem;
+  }
+
+
+  
+
+
+
+
+  .btninq {
+    height: 3rem;
+    width: 20rem;
+    margin-top: 3rem;
+    background-color: wheat;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.2rem;
+    transition: all 400ms;
+    box-shadow: 0 0 10px  antiquewhite, 0 0 10px antiquewhite;
+  }
+  
+  .btninq:hover {
+    background-color: antiquewhite;
+    box-shadow: none;
+  }
+  
+
+
+
+
+
+
+
+  .alert {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.error {
+    background-color: #f44336;
+    color: white;
+}
+
+.success {
+    background-color: #4CAF50;
+    color: white;
+}
